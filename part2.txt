@@ -12,8 +12,7 @@ Q2) Copy and paste the line(s) of code you expect to have caused the bug?
     reason of the bug was because of deleting the following line -> this.delayBeforeBullet = 10;
 
 Q3) Fix the bug and commit your changes of this fix on the master branch? Paste the commit ID below.
-
+    commit id: db816b18f4a41803b36845a13c43a5a98e253e0a
 
 Q4) Copy and paste the name of the developer who has been recently working on the coins branch.
-
-
+	Sarah Spikes <sarah@udacity.com>
