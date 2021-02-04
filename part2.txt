@@ -1,9 +1,15 @@
 Answer the following, add your answer below each question:
 Q1) Copy and paste the ID of the commit that caused the bug (fast shooting)?
-
+commit id: 25ed
 
 Q2) Copy and paste the line(s) of code you expect to have caused the bug? 
+    -  this.delayBeforeBullet = 10;
+    
+    -  Text.renderText(ipad ? 'Touch Screen to Start' : 'Press Space to Start', 36, Game.canvasWidth/2 - 270, Game.canvasHeight/2);       
+    +  Text.renderText(window.ipad ? 'Touch Screen to Start' : 'Press Space to Start', 36, Game.canvasWidth/2 - 270, Game.canvasHeight/2);
 
+    These are the changes between the last file that was working correctly and the file with bug. I expect from the code that the main 
+    reason of the bug was because of deleting the following line -> this.delayBeforeBullet = 10;
 
 Q3) Fix the bug and commit your changes of this fix on the master branch? Paste the commit ID below.
     commit id: db816b18f4a41803b36845a13c43a5a98e253e0a
